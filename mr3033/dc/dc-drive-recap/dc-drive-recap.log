@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2021.1.30)  27 APR 2021 09:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2021.1.30)  27 APR 2021 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1024,25 +1024,32 @@ File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
 de.tex
 File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-))) (./dc-drive-recap.aux)
+))) (./dc-drive-recap.aux
+
+LaTeX Warning: Label `C3<1>' multiply defined.
+
+
+LaTeX Warning: Label `C3' multiply defined.
+
+)
 \openout1 = `dc-drive-recap.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -1080,7 +1087,7 @@ LaTeX Font Info:    ... okay on input line 105.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box82
-Package hyperref Info: Link coloring OFF on input line 105.
+Package hyperref Info: Link coloring OFF on input line 108.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1093,9 +1100,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count356
 )
-LaTeX Info: Redefining \ref on input line 105.
-LaTeX Info: Redefining \pageref on input line 105.
-LaTeX Info: Redefining \nameref on input line 105.
+LaTeX Info: Redefining \ref on input line 108.
+LaTeX Info: Redefining \pageref on input line 108.
+LaTeX Info: Redefining \nameref on input line 108.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1126,7 +1133,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
 
 (./dc-drive-recap.nav)
 LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 107.
+ut line 110.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
@@ -1150,25 +1157,25 @@ File: HD-fig4_1.png Graphic file (type bitmap)
  [5
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 296
+LaTeX Font Info:    Trying to load font information for U+msa on input line 299
 .
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 296
+LaTeX Font Info:    Trying to load font information for U+msb on input line 299
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (24.59012pt too wide) in paragraph at lines 296--296
+Overfull \hbox (24.59012pt too wide) in paragraph at lines 299--299
  [] 
  []
 
 [6
 
 ]
-Overfull \hbox (24.59012pt too wide) in paragraph at lines 343--343
+Overfull \hbox (24.59012pt too wide) in paragraph at lines 346--346
  [] 
  []
 
@@ -1176,23 +1183,35 @@ Overfull \hbox (24.59012pt too wide) in paragraph at lines 343--343
 
 ] [8
 
+] [9
+
 ]
 File: cstr-control-step-beamer.png Graphic file (type bitmap)
- [9
+ [10
+
+]
+File: cstr-control-step-beamer.png Graphic file (type bitmap)
+
+Overfull \vbox (9.21428pt too high) detected at line 431
+ []
+
+[11
 
 ]
 File: rlocus-PI-integrator.png Graphic file (type bitmap)
 
-Overfull \vbox (2.38707pt too high) detected at line 410
+Overfull \vbox (2.38707pt too high) detected at line 443
  []
 
-[10
-
-] [11
-
-] [12
+[12
 
 ] [13
+
+] [14
+
+] [15
+
+] [16
 
 ]
 \alshift=\dimen330
@@ -1203,11 +1222,11 @@ Overfull \vbox (2.38707pt too high) detected at line 410
 \realshift=\dimen335
 \realshift=\dimen336
 
-Overfull \hbox (2.86713pt too wide) in paragraph at lines 557--557
+Overfull \hbox (2.86713pt too wide) in paragraph at lines 608--608
  [] 
  []
 
-[14
+[17
 
 ]
 \alshift=\dimen337
@@ -1366,7 +1385,11 @@ PGFPlots: reading {alpha_volt_current_180.dta}
 PGFPlots: reading {alpha_volt_current_180.dta}
 PGFPlots: reading {alpha_volt_current_180.dta}
 PGFPlots: reading {alpha_volt_current_180.dta}
- <a0,fr12> [15
+ <a0,fr12>
+Overfull \vbox (50.80504pt too high) detected at line 686
+ []
+
+[18
 
 ]
 \tf@nav=\write5
@@ -1378,19 +1401,23 @@ PGFPlots: reading {alpha_volt_current_180.dta}
 \tf@snm=\write7
 \openout7 = `dc-drive-recap.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 722.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 722.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 775.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 775.
  (./dc-drive-recap.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 722.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 722.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 775.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 775.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 51715 strings out of 481240
- 1312690 string characters out of 5920403
- 3697736 words of memory out of 5000000
- 66222 multiletter control sequences out of 15000+600000
+ 51764 strings out of 481240
+ 1313633 string characters out of 5920403
+ 3701736 words of memory out of 5000000
+ 66271 multiletter control sequences out of 15000+600000
  540376 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,11n,127p,797b,2348s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dc-drive-recap.dvi (15 pages, 1428360 bytes).
+Output written on dc-drive-recap.dvi (18 pages, 1437680 bytes).

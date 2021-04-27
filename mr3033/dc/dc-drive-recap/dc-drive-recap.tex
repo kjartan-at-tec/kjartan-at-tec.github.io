@@ -88,9 +88,12 @@ C0,% [1 min] Two-loop control
 C1,% [1 min] Torque on fan axis, ODE, block diagram
 C2,% [1 min] Block diagram, current input
 C3,% [3 min] PI-control, characteristic eqn, 2 poles
+C3S,% [3 min] Solution
 C4E,% [7 min] Poles and response. Pair
+C4S,% [2 min] Solution
 C5,% [1 min] Compare polynomials. Setup system of equations
 C5E,% [8 min] Compare polynomials. Setup system of equations
+C5S,% [8 min] Compare polynomials. Setup system of equations
 % [15 min] Part 3 - anti-windup 
 W1,% [2 min] Block diagram, anti-windup
 %W2E,% [10 min] Anti-windup exercise
@@ -388,6 +391,21 @@ amp/.style = {regular polygon, regular polygon sides=3,
 \note{%
 }
 
+\begin{frame}[label=C3]{PI-control, solution}
+
+\[\Omega(s)  = \underbrace{\frac{kk_c(\tau_is + 1)}{\tau_iJs^2 + kk_c(\tau_is + 1)}}_{G_{c1}(s)}\Omega_{ref}(s) + 
+\underbrace{\frac{\tau_is}{\tau_iJs^2 + kk_c(\tau_is + 1)}}_{G_{c2}(s)}T_l(s)\] 
+
+\alert{Question:} What it the static gain ($s=0$) for the two input signals \(\omega_{ref}\) and \(T_l\)?
+
+Substituting $s=0$ in the two transfer functions give
+\[ G_{c1}(0) = 1, \qquad \text{and} \qquad G_{c2}(0) = 0. \]
+\end{frame}
+
+
+\note{%
+}
+
 \begin{frame}[label=C4E]{System poles and time-response}
 For a second-order closed-loop transfer function 
 \[  G_c(s) = \frac{K}{s^2 + \frac{1}{2}s + K}\]
@@ -395,6 +413,21 @@ and four different choices of $K$, four different pairs of closed-loop poles are
 \begin{center}
   \includegraphics[width=0.77\linewidth]{cstr-control-step-beamer.png}
 \end{center}
+\end{frame}
+
+\note{%
+}
+
+\begin{frame}[label=C4S]{System poles and time-response, solution}
+For a second-order closed-loop transfer function 
+\[  G_c(s) = \frac{K}{s^2 + \frac{1}{2}s + K}\]
+and four different choices of $K$, four different pairs of closed-loop poles are obtained.  Pair the poles with the corresponding time-response.
+\begin{center}
+  \includegraphics[width=0.77\linewidth]{cstr-control-step-beamer.png}
+\end{center}
+
+The solution is: [A, 4] no overshoot, slow dominating real pole; [B, 3] no overshoot, slowest pole faster than for A; [C, 1] some overshoot but well damped; [D, 2] Less damped than 1, poles with larger imaginary part than C.
+
 \end{frame}
 
 \note{%
@@ -421,6 +454,24 @@ and four different choices of $K$, four different pairs of closed-loop poles are
   
   \alert{Determine} a system of two equations in the two unknown controller parameters $\tau_i$ and $k_c$ by setting the corresponding coefficients equal in both polynomials. \alert{Solve} for $\tau_i$ and $k_c$ in the particular case that \(p_1=p_2=-\frac{1}{\tau_c}\). 
   
+\end{frame}
+
+\note{%
+}
+
+\begin{frame}[label=C5S]{Polynomial design, solution}
+  Given closed-loop characteristic polynomial
+  \[ A_{c} =  s^2 + \frac{k_c k}{J}s + \frac{k_c k}{\tau_i J}\]
+
+  and desired characteristic polynomial (desired poles $p_1$ and $p_2$)
+  \[ A_{cd}=(s-p_1)(s-p_2) = s^2 - (p_1+p_2)s + p_1p_2 \]
+
+  Setting corresponding coefficients equal and solving gives
+  \[ \begin{cases} \frac{k_c k}{J} &= -(p_1+p_2)\\ \frac{k_c k}{\tau_i J} &= p_1p_2\end{cases}
+    \quad \Leftrightarrow\quad
+    \begin{cases} k_c  &= \frac{-(p_1+p_2)J}{k}\\ \tau_i &= \frac{-(p_1+p_2)}{p_1p_2} \end{cases} \]
+  And for the specific case $p_1 = p_2 = -\frac{1}{\tau_c}$
+  \[    \begin{cases} k_c &= \frac{2J}{\tau_ck}\\ \tau_i &= 2\tau_c \end{cases} \]
 \end{frame}
 
 \note{%
@@ -526,7 +577,7 @@ and four different choices of $K$, four different pairs of closed-loop poles are
 	    \draw (\cwidth,0) to[short] (\swx, 0) to[thyristor, l_=T4] (0, 0);
 	    \draw[] (0, 1) to[short] (1, 1) to[short] (1, \diody) to[thyristor, l_=T2] (\swxx, \diody)
 	    to[short] (\swxx, \cheight);
-	    \draw[] (\swxx, 0) to[short] (\swxx, \diodyy) to[thyristor, l_=T3] (1.5, \diodyy) to[short] (1.5, 4) to[crossing] (0.5, 4) to[short] (0, 4);
+	    \draw[] (\swxx, 0) to[short] (\swxx, \diodyy) to[thyristor, l_=T3] (1.5, \diodyy) to[short] (1.5, \chtth) to[crossing] (0.5, \chtth) to[short] (0, \chtth);
 	  \end{circuitikz}
 	\end{center}
 \end{column}
@@ -574,7 +625,7 @@ and four different choices of $K$, four different pairs of closed-loop poles are
 	    \draw (\cwidth,0) to[short] (\swx, 0) to[thyristor, l_=T4] (0, 0);
 	    \draw[] (0, 1) to[short] (1, 1) to[short] (1, \diody) to[thyristor, l_=T2] (\swxx, \diody)
 	    to[short] (\swxx, \cheight);
-	    \draw[] (\swxx, 0) to[short] (\swxx, \diodyy) to[thyristor, l_=T3] (1.5, \diodyy) to[short] (1.5, 4) to[crossing] (0.5, 4) to[short] (0, 4);
+	    \draw[] (\swxx, 0) to[short] (\swxx, \diodyy) to[thyristor, l_=T3] (1.5, \diodyy) to[short] (1.5, \chtth) to[crossing] (0.5, \chtth) to[short] (0, \chtth);
 	  \end{scope}
 
           \begin{axis}[%
@@ -629,6 +680,8 @@ and four different choices of $K$, four different pairs of closed-loop poles are
     \end{animateinline}
   \end{center}
 
+  For firing angles above 60 degrees, the current drops to zero, and this will disconnect the motor armature from the supply (no thyristors are conducting). The measured voltage is then the open-circuit voltage across the armature, which is equal to the e.m.f.~produced by the rotating motor. This voltage is very close to the average DC voltage.
+  
 
 \end{frame}
 
