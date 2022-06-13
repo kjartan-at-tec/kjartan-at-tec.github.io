@@ -67,8 +67,8 @@
 
 
 \author{Kjartan Halvorsen}
-\date{2021-06-07}
-\title{Respuesta de sistemas de primer y segunda orden}
+\date{2022-06-12}
+\title{Response of first- and second-order systems}
 
 % ------------------------------------------------
 % Determine which slides to include
@@ -116,7 +116,7 @@ T21,% Second order systems
 \maketitle
 
 
-\begin{frame}[label=PZ0]{Polos y ceros}
+\begin{frame}[label=PZ0]{Poles and zeros}
 
   \begin{align*}
     G(s) &= \frac{B(s)}{A(s)} = \frac{b_0s^m + b_1s^{m-1} + \cdots + b_m }{s^n + a_1s^{n-1} + \cdots + a_n } = \frac{ b_0\overbrace{(s-z_1)(s-z_2)\cdots (s-z_m)}^{\text{\(m\) \alert{ceros}}}}{ \underbrace{(s-p_1)(s-p_2)\cdots(s-p_n)}_{\text{\(n\) \alert{polos}}}}\\
@@ -125,7 +125,7 @@ T21,% Second order systems
 \end{frame}
 
 
-\begin{frame}[label=T1]{Respuesta de escalón de sistemas de primer orden}
+\begin{frame}[label=T1]{Step-response of a first-order system}
 
   \footnotesize
   
@@ -179,7 +179,7 @@ T21,% Second order systems
   \end{center}
 \end{frame}
   
-\begin{frame}[label=T20]{Respuesta de escalón de sistemas de segundo orden}
+\begin{frame}[label=T20]{Step-response of a second-order system}
 
 {  \tiny
   
@@ -294,11 +294,11 @@ T21,% Second order systems
   \end{center}
 \end{frame}
   
-\begin{frame}[label=T21]{Respuesta de escalón de sistemas de segundo orden}
+\begin{frame}[label=T21]{Step-response of a second-order system}
 
 {  \tiny
   
-  \[\text{Subamortiguado (\(0 < \zeta < 1\)):}\; y(t) = k\big( 1 - \frac{\mexp{-\zeta\omega_n t}}{\sqrt{1-\zeta^2}}\sin( \omega_n\sqrt{1-\zeta^2}t + \cos^{-1}(\zeta))\big)\] 
+  \[\text{Under-damped (\(0 < \zeta < 1\)):}\; y(t) = k\big( 1 - \frac{\mexp{-\zeta\omega_n t}}{\sqrt{1-\zeta^2}}\sin( \omega_n\sqrt{1-\zeta^2}t + \cos^{-1}(\zeta))\big)\] 
 }
   \def\snum{60}
   \def\nframes{20}
