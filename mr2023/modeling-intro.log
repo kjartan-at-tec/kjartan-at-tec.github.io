@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2021.6.21)  12 MAY 2022 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2021.6.21)  3 JAN 2023 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1095,10 +1095,6 @@ File: ac75-control-block-details.png Graphic file (type bitmap)
  [3
 
 ]
-File: pirelli.jpg Graphic file (type bitmap)
- [4
-
-]
 File: hummer-ev.png Graphic file (type bitmap)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 199
 .
@@ -1237,11 +1233,11 @@ File: hummer-ev.png Graphic file (type bitmap)
  <a0,fr58>
 File: hummer-ev.png Graphic file (type bitmap)
 
-<a0,fr59> [5
+<a0,fr59> [4
+
+] [5
 
 ] [6
-
-] [7
 
 ]
 File: hummer-ev.png Graphic file (type bitmap)
@@ -1377,7 +1373,7 @@ File: hummer-ev.jpg Graphic file (type bitmap)
 Overfull \vbox (7.24013pt too high) detected at line 304
  []
 
-[8
+[7
 
 ]
 File: hummer-ev.png Graphic file (type bitmap)
@@ -1513,7 +1509,7 @@ File: hummer-ev.jpg Graphic file (type bitmap)
 Overfull \vbox (7.24013pt too high) detected at line 304
  []
 
-[9
+[8
 
 ]
 File: hummer-ev.png Graphic file (type bitmap)
@@ -1649,7 +1645,7 @@ File: hummer-ev.jpg Graphic file (type bitmap)
 Overfull \vbox (7.24013pt too high) detected at line 304
  []
 
-[10
+[9
 
 ] <a4,fr0> <a4,fr1> <a4,fr2> <a4,fr3> <a4,fr4> <a4,fr5> <a4,fr6> <a4,fr7>
 <a4,fr8> <a4,fr9> <a4,fr10> <a4,fr11> <a4,fr12> <a4,fr13> <a4,fr14> <a4,fr15>
@@ -1659,26 +1655,42 @@ Overfull \vbox (7.24013pt too high) detected at line 304
 <a4,fr37> <a4,fr38> <a4,fr39> <a4,fr40> <a4,fr41> <a4,fr42> <a4,fr43>
 <a4,fr44> <a4,fr45> <a4,fr46> <a4,fr47> <a4,fr48> <a4,fr49> <a4,fr50>
 <a4,fr51> <a4,fr52> <a4,fr53> <a4,fr54> <a4,fr55> <a4,fr56> <a4,fr57>
-<a4,fr58> <a4,fr59> [11
+<a4,fr58> <a4,fr59> [10
 
 ]
 File: hummer-ev.png Graphic file (type bitmap)
 
-Overfull \vbox (45.92131pt too high) detected at line 347
+Overfull \vbox (0.88042pt too high) detected at line 352
+ []
+
+[11
+
+]
+File: hummer-ev.png Graphic file (type bitmap)
+
+Overfull \vbox (0.88042pt too high) detected at line 352
  []
 
 [12
 
 ]
 File: hummer-ev.png Graphic file (type bitmap)
- [13
 
-] [14
+Overfull \vbox (0.88042pt too high) detected at line 352
+ []
+
+[13
+
+]
+File: hummer-ev.png Graphic file (type bitmap)
+ [14
+
+] [15
 
 ]
 PGFPlots: reading {car-drag-60.dta}
 PGFPlots: reading {car-drag.dta}
- [15
+ [16
 
 ] <a5,fr0> <a5,fr1> <a5,fr2> <a5,fr3> <a5,fr4> <a5,fr5>
 <a5,fr6> <a5,fr7> <a5,fr8> <a5,fr9> <a5,fr10> <a5,fr11> <a5,fr12> <a5,fr13>
@@ -1688,139 +1700,139 @@ PGFPlots: reading {car-drag.dta}
 <a5,fr35> <a5,fr36> <a5,fr37> <a5,fr38> <a5,fr39> <a5,fr40> <a5,fr41>
 <a5,fr42> <a5,fr43> <a5,fr44> <a5,fr45> <a5,fr46> <a5,fr47> <a5,fr48>
 <a5,fr49> <a5,fr50> <a5,fr51> <a5,fr52> <a5,fr53> <a5,fr54> <a5,fr55>
-<a5,fr56> <a5,fr57> <a5,fr58> <a5,fr59> [16
+<a5,fr56> <a5,fr57> <a5,fr58> <a5,fr59> [17
 
-] [17
+] [18
 
 ]
-Overfull \hbox (66.99777pt too wide) detected at line 633
+Overfull \hbox (66.99777pt too wide) detected at line 638
 []
  []
 
 
-Overfull \hbox (84.08536pt too wide) detected at line 633
+Overfull \hbox (84.08536pt too wide) detected at line 638
 []
  []
 
 
-Overfull \hbox (94.17763pt too wide) detected at line 633
+Overfull \hbox (94.17763pt too wide) detected at line 638
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
 
-Overfull \vbox (58.32567pt too high) detected at line 633
- []
-
-[18
-
-]
-Overfull \hbox (66.99777pt too wide) detected at line 633
-[]
- []
-
-
-Overfull \hbox (84.08536pt too wide) detected at line 633
-[]
- []
-
-
-Overfull \hbox (94.17763pt too wide) detected at line 633
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
- []
-
-
-Overfull \vbox (58.32567pt too high) detected at line 633
+Overfull \vbox (58.32567pt too high) detected at line 638
  []
 
 [19
 
 ]
-Overfull \hbox (66.99777pt too wide) detected at line 633
+Overfull \hbox (66.99777pt too wide) detected at line 638
 []
  []
 
 
-Overfull \hbox (84.08536pt too wide) detected at line 633
+Overfull \hbox (84.08536pt too wide) detected at line 638
 []
  []
 
 
-Overfull \hbox (94.17763pt too wide) detected at line 633
+Overfull \hbox (94.17763pt too wide) detected at line 638
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
 
-Overfull \vbox (58.32567pt too high) detected at line 633
+Overfull \vbox (58.32567pt too high) detected at line 638
  []
 
 [20
 
 ]
-Overfull \hbox (66.99777pt too wide) detected at line 633
+Overfull \hbox (66.99777pt too wide) detected at line 638
 []
  []
 
 
-Overfull \hbox (84.08536pt too wide) detected at line 633
+Overfull \hbox (84.08536pt too wide) detected at line 638
 []
  []
 
 
-Overfull \hbox (94.17763pt too wide) detected at line 633
+Overfull \hbox (94.17763pt too wide) detected at line 638
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
 
-Overfull \vbox (58.32567pt too high) detected at line 633
+Overfull \vbox (58.32567pt too high) detected at line 638
  []
 
 [21
 
 ]
-Overfull \hbox (66.99777pt too wide) detected at line 633
+Overfull \hbox (66.99777pt too wide) detected at line 638
 []
  []
 
 
-Overfull \hbox (84.08536pt too wide) detected at line 633
+Overfull \hbox (84.08536pt too wide) detected at line 638
 []
  []
 
 
-Overfull \hbox (94.17763pt too wide) detected at line 633
+Overfull \hbox (94.17763pt too wide) detected at line 638
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
 
-Overfull \vbox (58.32567pt too high) detected at line 633
+Overfull \vbox (58.32567pt too high) detected at line 638
  []
 
 [22
 
 ]
-Overfull \hbox (66.99777pt too wide) detected at line 633
+Overfull \hbox (66.99777pt too wide) detected at line 638
 []
  []
 
 
-Overfull \hbox (84.08536pt too wide) detected at line 633
+Overfull \hbox (84.08536pt too wide) detected at line 638
 []
  []
 
 
-Overfull \hbox (94.17763pt too wide) detected at line 633
+Overfull \hbox (94.17763pt too wide) detected at line 638
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
 
-Overfull \vbox (58.32567pt too high) detected at line 633
+Overfull \vbox (58.32567pt too high) detected at line 638
  []
 
 [23
 
 ]
+Overfull \hbox (66.99777pt too wide) detected at line 638
+[]
+ []
+
+
+Overfull \hbox (84.08536pt too wide) detected at line 638
+[]
+ []
+
+
+Overfull \hbox (94.17763pt too wide) detected at line 638
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \vbox (58.32567pt too high) detected at line 638
+ []
+
+[24
+
+]
 File: tank-with-valve.png Graphic file (type bitmap)
- [24
+ [25
 
 ]
 \tf@nav=\write5
@@ -1832,19 +1844,19 @@ File: tank-with-valve.png Graphic file (type bitmap)
 \tf@snm=\write7
 \openout7 = `modeling-intro.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 706.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 706.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 711.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 711.
  (./modeling-intro.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 706.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 706.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 711.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 711.
  ) 
 Here is how much of TeX's memory you used:
- 35528 strings out of 481240
- 838391 string characters out of 5920403
- 1970337 words of memory out of 5000000
- 50095 multiletter control sequences out of 15000+600000
+ 35521 strings out of 481240
+ 838285 string characters out of 5920403
+ 1970240 words of memory out of 5000000
+ 50090 multiletter control sequences out of 15000+600000
  542068 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,22n,127p,797b,2424s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on modeling-intro.dvi (24 pages, 1398208 bytes).
+Output written on modeling-intro.dvi (25 pages, 1416856 bytes).
